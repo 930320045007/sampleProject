@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_klas" value="name:classification_id;datatype:int,name:classification_by;datatype:string,name:classification_date;datatype:string,name:classification_code;datatype:string,name:classification_name;datatype:string,name:classification_status;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:group_id;datatype:int,name:group_by;datatype:string,name:group_date;datatype:string,name:group_name;datatype:string" />
+	<infoitem key="UD_grp" value="name:group_id;datatype:int,name:group_by;datatype:string,name:group_date;datatype:string,name:group_name;datatype:string" />
+</info>

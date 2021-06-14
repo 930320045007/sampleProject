@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_dir" value="name:dir_id;datatype:int,name:dir_name;datatype:blob,name:dir_shortname;datatype:string,name:dir_type;datatype:int,name:dir_sub;datatype:int,name:user_stafid;datatype:string,name:dir_sort;datatype:int,name:dir_status;datatype:int" />
+	<infoitem key="UD_staflist" value="name:user_id;datatype:int,name:user_date;datatype:string,name:user_by;datatype:string,name:title_id;datatype:int,name:user_firstname;datatype:blob,name:user_lastname;datatype:blob,name:user_noic;datatype:string,name:user_stafid;datatype:string,name:user_dob_d;datatype:string,name:user_dob_m;datatype:string,name:user_dob_y;datatype:string,name:user_nationality;datatype:string,name:user_gender;datatype:string,name:user_race;datatype:string,name:religion_id;datatype:int,name:jobss_id;datatype:int" />
+	<infoitem key="UD_cat" value="name:category_id;datatype:int,name:category_name;datatype:string,name:category_status;datatype:int" />
+	<infoitem key="UD_akpe" value="name:ap_id;datatype:int,name:ap_date_d;datatype:string,name:ap_date_m;datatype:string,name:ap_date_y;datatype:string,name:ap_date_h;datatype:string,name:ap_by;datatype:string,name:ap_title;datatype:string,name:ap_note;datatype:blob,name:ap_file;datatype:string,name:ap_fileformat;datatype:string,name:ap_year;datatype:string,name:category_id;datatype:int,name:ap_sumber;datatype:string,name:apsumberurl;datatype:string,name:ap_status;datatype:int" />
+	<infoitem key="UD_y" value="name:ap_year;datatype:string" />
+</info>

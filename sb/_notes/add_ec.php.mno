@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_user_ec" value="name:userec_id;datatype:int,name:userec_date;datatype:datetime,name:userec_by;datatype:string,name:user_stafid;datatype:string,name:userec_name;datatype:blob,name:userec_relation;datatype:string,name:userec_telh;datatype:string,name:userec_telm;datatype:string,name:userec_telw;datatype:string" />
+</info>

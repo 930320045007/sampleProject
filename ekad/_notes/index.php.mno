@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_kad" value="name:card_id;datatype:int,name:card_thumb;datatype:string,name:card_img;datatype:string,name:cat_id;datatype:int,name:card_name;datatype:string,name:card_status;datatype:int" />
+	<infoitem key="UD_cc" value="name:cat_id;datatype:int,name:cat_name;datatype:string,name:cat_status;datatype:int" />
+	<infoitem key="UD_cct" value="name:cat_id;datatype:int,name:cat_name;datatype:string,name:cat_status;datatype:int" />
+</info>

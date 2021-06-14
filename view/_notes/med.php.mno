@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_user_med" value="name:usermed_id;datatype:int,name:usermed_date;datatype:string,name:usermed_by;datatype:string,name:user_stafid;datatype:string,name:usermed_blood;datatype:string,name:usermed_height;datatype:int,name:usermed_weight;datatype:int,name:usermed_disable;datatype:blob,name:usermed_allergic;datatype:blob,name:usermed_disease;datatype:blob,name:usermed_datetreatment;datatype:string,name:usermed_doctor;datatype:blob" />
+</info>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_race" value="name:race_id;datatype:int,name:race_by;datatype:string,name:race_date;datatype:string,name:race_name;datatype:string,name:race_short;datatype:int,name:race_status;datatype:int" />
+	<infoitem key="UD_race2" value="name:race_id;datatype:int,name:race_by;datatype:string,name:race_date;datatype:string,name:race_name;datatype:string,name:race_short;datatype:int,name:race_status;datatype:int" />
+	<infoitem key="UD_race3" value="name:race_id;datatype:int,name:race_by;datatype:string,name:race_date;datatype:string,name:race_name;datatype:string,name:race_short;datatype:int,name:race_status;datatype:int" />
+	<infoitem key="UD_jobtype" value="name:jobtype_id;datatype:int,name:jobtype_by;datatype:string,name:jobtype_date;datatype:string,name:jobtype_name;datatype:string,name:jobtype_status;datatype:int" />
+	<infoitem key="UD_jobtype2" value="name:jobtype_id;datatype:int,name:jobtype_by;datatype:string,name:jobtype_date;datatype:string,name:jobtype_name;datatype:string,name:jobtype_status;datatype:int" />
+	<infoitem key="UD_jobtype3" value="name:jobtype_id;datatype:int,name:jobtype_by;datatype:string,name:jobtype_date;datatype:string,name:jobtype_name;datatype:string,name:jobtype_status;datatype:int" />
+	<infoitem key="UD_kump" value="name:group_id;datatype:int,name:group_by;datatype:string,name:group_date;datatype:string,name:group_name;datatype:string,name:group_gred;datatype:int,name:group_status;datatype:int,name:group_view;datatype:int" />
+	<infoitem key="UD_kump2" value="name:group_id;datatype:int,name:group_by;datatype:string,name:group_date;datatype:string,name:group_name;datatype:string,name:group_gred;datatype:int,name:group_status;datatype:int,name:group_view;datatype:int" />
+	<infoitem key="UD_kump3" value="name:group_id;datatype:int,name:group_by;datatype:string,name:group_date;datatype:string,name:group_name;datatype:string,name:group_gred;datatype:int,name:group_status;datatype:int,name:group_view;datatype:int" />
+</info>

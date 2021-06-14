@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_prog" value="name:userprogram_id;datatype:int,name:userprogram_by;datatype:string,name:userprogram_date;datatype:string,name:user_stafid;datatype:string,name:userprogram_year;datatype:int,name:useraktiviti_id;datatype:int,name:userprogram_name;datatype:string,name:orglevel_id;datatype:int,name:orgarch_id;datatype:int,name:userprogram_jawat;datatype:string,name:userprogram_status;datatype:int" />
+	<infoitem key="UD_orgarch" value="name:orgarch_id;datatype:int,name:orgarch_by;datatype:string,name:orgarch_date;datatype:string,name:orgarch_name;datatype:string,name:orgarch_mark_l;datatype:int,name:orgarch_mark_h;datatype:int,name:orgarch_status;datatype:int" />
+	<infoitem key="UD_orglevel" value="name:orglevel_id;datatype:int,name:orglevel_by;datatype:string,name:orglevel_date;datatype:string,name:orglevel_name;datatype:string,name:orglevel_mark_l;datatype:int,name:orglevel_mark_h;datatype:int,name:orglevel_status;datatype:int" />
+</info>

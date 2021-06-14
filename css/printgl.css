@@ -1,0 +1,149 @@
+@charset "utf-8";
+html, body {
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size: 14px;
+}
+
+.fsize1 {
+	font-size: 15px;
+}
+
+.fsize2 {
+	font-size: 12px;
+}
+
+.backlogo {
+	background-image: url(../img/logoISNsmall.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.box {
+	border-style: solid;
+	border-width: thin;
+	border-color: #666;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.box2 {
+	border-style: solid;
+	border-width: thin;
+	border-color: #666;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.box2 tr td {
+	padding: 4px 5px;
+}
+
+.box2 .line_b {
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666;
+}
+
+.box2 .line_r {
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #666;
+}
+
+.box2 .back_grey {
+	background-color: #999;
+	color: #FFF;
+}
+
+.in_upper {
+	text-transform:uppercase;
+}
+
+.tabinfo {
+	margin-bottom: 5px;
+	margin-left: 15px;
+	border-bottom-color: #CCC;
+}
+
+.tabinfo tr td {
+	padding: 5px 15px;
+}
+
+.tabborder {
+	border-style: solid;
+	border-width: thin;
+	border-color: #666;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.tabborder tr td {
+	padding: 5px 15px;
+	border-right-color: #666;
+	border-right-style: solid;
+	border-right-width: thin;
+}
+
+.tabborder tr td:last-child {
+	border-right: none;
+}
+
+.tabborder th {
+	padding: 5px 15px;
+	border-right-color: #666;
+	border-right-style: solid;
+	border-right-width: thin;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666;
+	font-weight: normal;
+}
+
+.tabborder tr th:last-child {
+	border-right: none;
+}
+
+.tabborder tr.line_b td {
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #CCC;
+}
+
+.tabborder tr td.line_r{
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #CCC;
+}
+
+.tabborder tr td.line_l{
+	border-left-style: solid;
+	border-left-width: thin;
+	border-left-color: #CCC;
+}
+
+.tabborder tr th.line_r{
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #666;
+}
+
+.tabborder tr th.line_rw{
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #FFF;
+}
+
+.tabborder tr th.line_l{
+	border-left-style: solid;
+	border-left-width: thin;
+	border-left-color: #666;
+}
+
+.tabborder tr.line_b:last-child td {
+	border-bottom: none;
+}
+
+.back_darkgrey {
+	background-color: #E4E4E4;
+}

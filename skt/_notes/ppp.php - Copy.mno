@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_staflist" value="name:pp_id;datatype:int,name:pp_by;datatype:string,name:pp_date_d;datatype:string,name:pp_date_m;datatype:string,name:pp_date_y;datatype:string,name:user_stafid;datatype:string,name:pp_ppp;datatype:string,name:pp_ppk;datatype:string,name:pp_status;datatype:int" />
+	<infoitem key="UD_uskt" value="name:uskt_id;datatype:int,name:uskt_by;datatype:string,name:uskt_date_d;datatype:string,name:uskt_date_m;datatype:string,name:uskt_date_y;datatype:string,name:user_stafid;datatype:string,name:uskt_aktiviti;datatype:blob,name:uskt_kuantiti;datatype:blob,name:uskt_kuantiti_sk;datatype:blob,name:uskt_masa;datatype:blob,name:uskt_masa_sk;datatype:blob,name:uskt_masa_mula;datatype:string,name:uskt_masa_tamat;datatype:string,name:uskt_kualiti;datatype:blob,name:uskt_kualiti_sk;datatype:blob,name:uskt_kos;datatype:blob,name:uskt_kos_sk;datatype:blob,name:uskt_lain;datatype:blob,name:uskt_lain_sk;datatype:blob,name:uskt_status;datatype:int" />
+</info>

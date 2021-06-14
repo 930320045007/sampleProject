@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_tr" value="name:usertraining_id;datatype:int,name:user_stafid;datatype:string,name:usertraining_date_d;datatype:string,name:usertraining_date_m;datatype:string,name:usertraining_date_y;datatype:string,name:usertraining_name;datatype:string,name:usertraining_note;datatype:blob,name:usertraining_status;datatype:int" />
+</info>

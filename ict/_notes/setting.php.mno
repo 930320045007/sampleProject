@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_brandl" value="name:brand_id;datatype:int,name:brand_name;datatype:string,name:category_id;datatype:int" />
+	<infoitem key="UD_cat" value="name:category_id;datatype:int,name:category_name;datatype:string" />
+	<infoitem key="UD_ft" value="name:feedbacktype_id;datatype:int,name:feedbacktype_name;datatype:string,name:feedbacktype_status;datatype:int" />
+	<infoitem key="UD_itemadd" value="name:itemadd_id;datatype:int,name:itemadd_name;datatype:string" />
+	<infoitem key="UD_os" value="name:itemos_id;datatype:int,name:itemos_name;datatype:string" />
+	<infoitem key="UD_itemram" value="name:itemram_id;datatype:int,name:itemram_name;datatype:string" />
+	<infoitem key="UD_reportt" value="name:reporttype_id;datatype:int,name:reporttype_name;datatype:string,name:reporttype_status;datatype:int" />
+	<infoitem key="UD_reportst" value="name:reportsubtype_id;datatype:int,name:reporttype_id;datatype:int,name:reportsubtype_name;datatype:string,name:reportsubtype_status;datatype:int" />
+	<infoitem key="UD_subcat" value="name:subcategory_id;datatype:int,name:category_id;datatype:int,name:subcategory_name;datatype:string" />
+	<infoitem key="UD_vendort" value="name:vendortype_id;datatype:int,name:vendortype_name;datatype:string,name:vendortype_status;datatype:int" />
+	<infoitem key="UD_catlist" value="name:category_id;datatype:int,name:category_name;datatype:string" />
+	<infoitem key="UD_tlist" value="name:reporttype_id;datatype:int,name:reporttype_name;datatype:string,name:reporttype_status;datatype:int" />
+</info>

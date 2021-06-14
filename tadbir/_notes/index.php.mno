@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_hallist" value="name:hall_id;datatype:int,name:hall_by;datatype:string,name:hall_date;datatype:string,name:hall_name;datatype:string,name:halltype_id;datatype:int,name:hall_detail;datatype:blob,name:hall_status;datatype:int" />
+</info>

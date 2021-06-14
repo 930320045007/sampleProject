@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_division" value="name:division_id;datatype:int,name:division_name;datatype:blob,name:division_shortname;datatype:string,name:division_description;datatype:blob,name:division_sub1;datatype:string,name:division_sub2;datatype:string,name:division_sort;datatype:int" />
+	<infoitem key="UD_branch" value="name:branch_id;datatype:int,name:branch_name;datatype:blob,name:branch_shortname;datatype:string,name:branch_description;datatype:blob,name:branch_sub1;datatype:string,name:branch_sub2;datatype:string,name:branch_sort;datatype:int" />
+	<infoitem key="UD_unit" value="name:unit_id;datatype:int,name:unit_name;datatype:blob,name:unit_shortname;datatype:string,name:unit_description;datatype:blob,name:unit_sub1;datatype:string,name:unit_sub2;datatype:string,name:unit_sort;datatype:int" />
+</info>

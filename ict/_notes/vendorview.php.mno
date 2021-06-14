@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_v" value="name:vendor_id;datatype:int,name:vendortype_id;datatype:int,name:vendor_name;datatype:string,name:vendor_add;datatype:blob,name:vendor_notel;datatype:string,name:vendor_nofax;datatype:string,name:vendor_email;datatype:string,name:vendor_web;datatype:string,name:vendor_status;datatype:int" />
+	<infoitem key="UD_vind" value="name:vendorind_id;datatype:int,name:vendorind_by;datatype:string,name:vendorind_date;datatype:string,name:vendor_id;datatype:int,name:vendorind_name;datatype:string,name:vendorind_email;datatype:string,name:vendorind_notel;datatype:string,name:vendorind_status;datatype:int" />
+</info>

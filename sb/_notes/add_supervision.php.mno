@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_user_report" value="name:userreport_id;datatype:int,name:userreport_date;datatype:datetime,name:userreport_by;datatype:string,name:user_stafid;datatype:string,name:userreport_stafid;datatype:string,name:userreport_type;datatype:string,name:user_firstname;datatype:blob,name:user_lastname;datatype:blob,name:userjob_jobtitle;datatype:string,name:userjob_jobtitle2;datatype:string" />
+</info>

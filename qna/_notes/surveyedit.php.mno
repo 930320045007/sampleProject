@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_kumpsasaran" value="name:group_id;datatype:int,name:group_by;datatype:string,name:group_date;datatype:string,name:group_name;datatype:string,name:group_gred;datatype:int,name:group_status;datatype:int,name:group_view;datatype:int" />
+	<infoitem key="UD_khusus" value="name:dir_id;datatype:int,name:dir_name;datatype:blob" />
+	<infoitem key="UD_sd" value="name:sd_id;datatype:int,name:sd_by;datatype:string,name:sd_date_d;datatype:string,name:sd_date_m;datatype:string,name:sd_date_y;datatype:string,name:sd_date_h;datatype:string,name:sd_title;datatype:string,name:sd_desc;datatype:blob,name:group_id;datatype:int,name:division_id;datatype:int,name:sd_end_d;datatype:string,name:sd_end_m;datatype:string,name:sd_end_y;datatype:string,name:sd_view;datatype:int,name:sd_mandatory;datatype:int,name:sd_status;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_evofficer" value="name:evofficer_id;datatype:int,name:evofficer_name;datatype:string" />
+	<infoitem key="UD_userunit" value="name:userunit_id;datatype:int,name:userunit_date;datatype:string,name:userunit_by;datatype:string,name:userunit_in_d;datatype:string,name:userunit_in_m;datatype:string,name:userunit_in_y;datatype:string,name:user_stafid;datatype:string,name:dir_id;datatype:int,name:location_id;datatype:int,name:userunit_status;datatype:int,name:user_firstname;datatype:blob" />
+</info>

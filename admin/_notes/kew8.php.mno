@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_kew8" value="name:userkewe_id;datatype:int,name:userkewe_by;datatype:string,name:userkewe_date;datatype:string,name:userkewe_start_d;datatype:string,name:userkewe_start_m;datatype:string,name:userkewe_start_y;datatype:string,name:userkewe_end_d;datatype:string,name:userkewe_end_m;datatype:string,name:userkewe_end_y;datatype:string,name:user_stafid;datatype:string,name:kewe_id;datatype:int,name:userkewe_content;datatype:blob,name:userkewe_salary;datatype:real,name:userkewe_salaryskill;datatype:string,name:userkewe_note;datatype:blob,name:userkewe_ref;datatype:string,name:userkewe_refdate;datatype:string,name:userkewe_status;datatype:int" />
+	<infoitem key="UD_kewetype" value="name:kewetype_id;datatype:int,name:kewetype_name;datatype:string,name:kewetype_status;datatype:int" />
+	<infoitem key="UD_kewe" value="name:kewe_id;datatype:int,name:kewe_by;datatype:string,name:kewe_date;datatype:string,name:kewe_name;datatype:string,name:kewetype_id;datatype:int,name:kewe_status;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_allleave" value="name:userleavedate_id;datatype:int,name:userleavedate_by;datatype:string,name:userleavedate_date;datatype:string,name:user_stafid;datatype:string,name:leavetype_id;datatype:int,name:userleavedate_date_d;datatype:string,name:userleavedate_date_m;datatype:string,name:userleavedate_date_y;datatype:string,name:userleavedate_nofail;datatype:string,name:userleavedate_approvelby;datatype:string,name:leavecategory_id;datatype:int,name:userleavedate_day;datatype:int,name:userleavedate_sonby;datatype:int,name:clinictype_id;datatype:int,name:clinic_id;datatype:int,name:userleavedate_notice;datatype:int,name:userleavedate_name;datatype:string,name:userleavedate_note;datatype:blob,name:userleavedate_head;datatype:string,name:userleavedate_app;datatype:int,name:userleavedate_appby;datatype:string,name:userleavedate_appdate;datatype:string,name:userleavedate_status;datatype:int" />
+</info>

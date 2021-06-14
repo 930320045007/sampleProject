@@ -1,0 +1,215 @@
+<?php
+// Admin > Penyelenggaraan
+function emailNewMaintenance($to, $from, $subject, $type, $id)
+{
+	// Email permohonan baru kepada Admin
+	// to = array senarai StafID penerima
+	// subject = tajuk
+	// type = jenis
+	// id = maintenace ID
+	
+	if($from==0)
+		$from = $GLOBALS['systitle_short'] . ' <support@isn.gov.my>';
+	
+	$random_hash = md5(date('r', time()));
+	
+	$query_main = "SELECT * FROM tadbir.maintenance WHERE  maintenance_id='". htmlspecialchars($id,ENT_QUOTES) ."' AND maintenance_status = 1 ORDER BY maintenance_id ASC";
+	$main = mysql_query($query_main);
+	$row_main = mysql_fetch_assoc($main);
+	$total_main = mysql_num_rows($main);
+
+	mysql_select_db($database_tadbirdb, $tadbirdb);
+$query_maintype = "SELECT * FROM tadbir.maintenance_type WHERE maintenancetype_status = 1 ORDER BY maintenancetype_id DESC";
+$maintype = mysql_query($query_maintype, $tadbirdb) or die(mysql_error());
+$row_maintype = mysql_fetch_assoc($maintype);
+$total_maintype = mysql_num_rows($maintype);
+
+mysql_select_db($database_tadbirdb, $tadbirdb);
+$query_type = "SELECT * FROM tadbir.transport_type WHERE transporttype_status = 1 ORDER BY transporttype_name ASC";
+$type = mysql_query($query_type, $tadbirdb) or die(mysql_error());
+$row_type = mysql_fetch_assoc($type);
+$total_type = mysql_num_rows($type);
+
+mysql_select_db($database_tadbirdb, $tadbirdb);
+$query_tr = "SELECT transport.transport_id, transport.transport_name FROM tadbir.maintenance LEFT JOIN tadbir.transport ON transport.transport_id = maintenance.transport_id WHERE  maintenance_status = '1' GROUP BY transport_id ORDER BY transport.transport_name ASC";
+$tr = mysql_query($query_tr, $tadbirdb) or die(mysql_error());
+$row_tr = mysql_fetch_assoc($tr);
+$total_tr = mysql_num_rows($tr);
+
+	if($type == 1) 
+	{	
+	
+	//email kepada admin / user untuk maklum berkaitan penyelenggaraan
+	ob_start(); //Turn on output buffering	
+?>
+Salam sejahtera;
+
+Berikut merupakan permohonan penyelenggaraan yang telah dihantar :
+
+Pemohon				: <?php echo getFullNameByStafID(getMaintenanceBy(htmlspecialchars($id,ENT_QUOTES))) . " (" . getMaintenanceBy(htmlspecialchars($id,ENT_QUOTES)) . ")";?>
+
+Kenderaan  			: <?php echo getTypeNameByMaintenanceID(htmlspecialchars($id,ENT_QUOTES));?> <?php echo getTransportNameByMaintenanceID(htmlspecialchars($id,ENT_QUOTES));?>
+
+No Pendaftaran 		: <?php echo getTransportPlatByMaintenanceID(htmlspecialchars($id,ENT_QUOTES));?>
+
+Bacaan Odometer     : <?php echo getOdometerByID(htmlspecialchars($id,ENT_QUOTES));?>
+
+----------------------------------
+Maklumat Penyelenggaraan 	:
+
+<?php 
+if($total_maintype>0)
+{ 
+	$j=1; do{ ?>
+<?php echo $j;?> Jenis Penyelenggaraan: <?php echo $row_maintype['maintenancetype_name']; ?>
+
+<?php 
+$j++; 
+}while($row_maintype = mysql_fetch_assoc($maintype));
+} else echo "Tiada rekod dijumpai";?>
+
+Ulasan 		: <?php echo getMaintenanceNoteByID(htmlspecialchars($id, ENT_QUOTES));?>
+
+Oleh 					: <?php echo getFullNameByStafID(getMaintenanceBy(htmlspecialchars($id,ENT_QUOTES))) . " (" . getMaintenanceBy(htmlspecialchars($id,ENT_QUOTES)) . ")";?>
+
+
+
+<?php echo getDirSubName(getDirIDByMenuID(9));?> berhak untuk menukar atau membatal mana-mana maklumat dan permohonan mengikut keperluan tanpa sebarang notis atau makluman, dan tertakluk pada terma dan syarat. Sila layari <?php echo $GLOBALS['systitle_short'];?> melalui URL berikut <?php echo $GLOBALS['url_main'];?> untuk maklumat lanjut.
+
+
+Sekian, terima kasih.
+
+Makluman ini dihantar melalui <?php echo $GLOBALS['systitle_full'];?> sebagai rujukan.
+<?
+	//copy current buffer contents into $message variable and delete current output buffer
+	$message = ob_get_clean();
+	  
+	mysql_free_result($main);
+	mysql_free_result($maintype);
+	mysql_free_result($type);
+    mysql_free_result($tr);
+	
+	}
+	
+	$smtp = emailset();
+	
+	if($subject == 0 && $type == 1)
+ 		$subject = $GLOBALS['systitle_short'] . " : Penyelenggaraan Kenderaan Rasmi ISN" ;
+	
+	$format = "\r\nContent-Type: multipart/alternative; boundary=\"PHP-alt-".$random_hash."\"";
+	
+		if($GLOBALS['sendemailfunc']) // semak sama ada func email dibenarkan berfungsi atau tidak file:hrmsdb.php
+		{
+			foreach($to AS $key => $value)
+			{
+				$headers = array ('From' => $from, 'To' => getEmailISNByUserID($value), 'Subject' => $subject);
+				
+				if($type == 1 && getStatusTFByStafID($value))
+				{ // email kpd staf
+					$mail = $smtp->send(getEmailISNByUserID($value), $headers, $message, $format);
+				}
+			}
+		}
+}
+?>
+<?php
+// Admin > Penyelenggaraan > Kelulusan
+function emailValidMaintenance($to, $from, $subject, $type, $id)
+{
+	// Email kelulusan permohonan kepada user
+	// to = array senarai StafID penerima
+	// subject = tajuk
+	// type = jenis
+	// id = maintenance ID
+	
+	if($from==0)
+		$from = $GLOBALS['systitle_short'] . ' <support@isn.gov.my>';
+	
+	$random_hash = md5(date('r', time()));
+
+	if($type == 1) 
+	{	
+	
+	//email kepada admin / user untuk maklum berkaitan tempahan
+	ob_start(); //Turn on output buffering	
+?>
+Salam sejahtera;
+
+Berikut merupakan keputusan kelulusan permohonan penyelenggaraan :-
+
+Permohonan untuk  penyelenggaraan kenderaan rasmi ISN <?php if($row_main['maintenance_validstatus']==1) echo "Diluluskan"; else echo "Tidak Diluluskan";?> oleh <?php echo getFullNameByStafID(getAdminAppBy(htmlspecialchars($id,ENT_QUOTES)));?> pada <?php echo getAdminAppDateByID(htmlspecialchars($id, ENT_QUOTES));?>.
+<?php if(getAdminAppNoteByID(htmlspecialchars($id, ENT_QUOTES))!=NULL){?>
+
+Catatan :
+<?php echo htmlspecialchars_decode(getAdminAppNoteByID(htmlspecialchars($id, ENT_QUOTES)));?>
+
+<?php }; ?>
+
+-----------------------------
+
+Keputusan kelulusan ini adalah merujuk pada maklumat penyelenggaraan berikut :-
+
+Tarikh Permohonan 		: <?php echo getMaintenanceDateByID(htmlspecialchars($id, ENT_QUOTES));?>
+
+Kenderaan  			: <?php echo getTypeNameByMaintenanceID(htmlspecialchars($id,ENT_QUOTES));?> <?php echo getTransportNameByMaintenanceID(htmlspecialchars($id,ENT_QUOTES));?>
+
+No Pendaftaran 		: <?php echo getTransportPlatByMaintenanceID(htmlspecialchars($id,ENT_QUOTES));?>
+
+Bacaan Odometer     : <?php echo getOdometerByID(htmlspecialchars($id,ENT_QUOTES));?>
+
+<?php 
+if($total_maintype>0)
+{ 
+	$j=1; do{ ?>
+<?php echo $j;?> Jenis Penyelenggaraan: <?php echo $row_maintype['maintenancetype_name']; ?>
+
+<?php 
+$j++; 
+}while($row_maintype = mysql_fetch_assoc($maintype));
+} else echo "Tiada rekod dijumpai";?>
+
+Ulasan 		: <?php echo getMaintenanceNoteByID(htmlspecialchars($id, ENT_QUOTES));?>
+
+Oleh 					: <?php echo getFullNameByStafID(getMaintenanceBy(htmlspecialchars($id,ENT_QUOTES))) . " (" . getMaintenanceBy(htmlspecialchars($id,ENT_QUOTES)) . ")";?>
+
+
+
+Maklumat berkaitan dengan penyelenggaraan akan dikemaskini apabila pemohon telah membuat penyelenggaraan dan menghantar dokumen yang diperlukan kepada Cawangan Pentadbiran.
+
+
+Maklumat kelulusan ini dikemaskini oleh <?php echo getFullNameByStafID(getValidBy(htmlspecialchars($id, ENT_QUOTES))) . " (" . getValidBy(htmlspecialchars($id, ENT_QUOTES)) . ")";?> pada <?php echo getValidDateByID(htmlspecialchars($id, ENT_QUOTES));?>. 
+
+
+<?php echo getDirSubName(getDirIDByMenuID('9'));?> berhak untuk menukar atau membatal mana-mana maklumat dan permohonan mengikut keperluan tanpa sebarang notis atau makluman, dan tertakluk pada terma dan syarat. Sila layari <?php echo $GLOBALS['systitle_short'];?> melalui URL berikut <?php echo $GLOBALS['url_main'];?> untuk maklumat lanjut.
+
+
+Sekian, terima kasih.
+
+Makluman ini dihantar melalui <?php echo $GLOBALS['systitle_full'];?> sebagai rujukan.
+<?
+	//copy current buffer contents into $message variable and delete current output buffer
+	$message = ob_get_clean();
+	
+	}
+	
+	$smtp = emailset();
+	
+	if($subject == 0 && $type == 1)
+ 		$subject = $GLOBALS['systitle_short'] . " : Kelulusan Permohonan Penyelenggaraan Kenderaan Rasmi ISN ";
+	
+	$format = "\r\nContent-Type: multipart/alternative; boundary=\"PHP-alt-".$random_hash."\"";
+	
+		if($GLOBALS['sendemailfunc']) // semak sama ada func email dibenarkan berfungsi atau tidak file:hrmsdb.php
+		{
+			foreach($to AS $key => $value)
+			{
+				$headers = array ('From' => $from, 'To' => getEmailISNByUserID($value), 'Subject' => $subject);
+				
+				if($type == 1 && getStatusTFByStafID($value))
+				{ // email kpd staf
+					$mail = $smtp->send(getEmailISNByUserID($value), $headers, $message, $format);
+				}
+			}
+		}
+}
+?>

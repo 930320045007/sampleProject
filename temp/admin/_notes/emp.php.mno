@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_klas" value="name:classification_id;datatype:int,name:classification_by;datatype:string,name:classification_date;datatype:string,name:classification_code;datatype:string,name:classification_name;datatype:string,name:classification_status;datatype:int" />
+	<infoitem key="UD_sch" value="name:scheme_id;datatype:int,name:scheme_by;datatype:string,name:scheme_date;datatype:string,name:classification_id;datatype:int,name:scheme_code;datatype:int,name:scheme_code2;datatype:string,name:scheme_name;datatype:string,name:group_id;datatype:int,name:scheme_gred;datatype:string,name:scheme_status;datatype:int" />
+</info>

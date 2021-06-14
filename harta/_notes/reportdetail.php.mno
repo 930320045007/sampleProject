@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_urf" value="name:urf_id;datatype:int,name:urf_by;datatype:string,name:urf_date_d;datatype:string,name:urf_date_m;datatype:string,name:urf_date_y;datatype:string,name:urf_date_h;datatype:string,name:userreport_id;datatype:int,name:feedbacktype_id;datatype:int,name:urf_stafid;datatype:string,name:urf_note;datatype:blob,name:urf_status;datatype:int" />
+</info>

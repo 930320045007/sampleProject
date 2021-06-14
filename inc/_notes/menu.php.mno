@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_menu" value="name:menu_id;datatype:int,name:menu_by;datatype:string,name:menu_date;datatype:string,name:menu_name;datatype:string,name:menutype_id;datatype:int,name:menu_url;datatype:string,name:menu_sortby;datatype:int,name:menu_status;datatype:int" />
+	<infoitem key="UD_menu2" value="name:menu_id;datatype:int,name:menu_by;datatype:string,name:menu_date;datatype:string,name:menu_name;datatype:string,name:menutype_id;datatype:int,name:menu_url;datatype:string,name:menu_sortby;datatype:int,name:menu_status;datatype:int" />
+	<infoitem key="UD_menu1" value="name:menu_id;datatype:int,name:menu_by;datatype:string,name:menu_date;datatype:string,name:menu_name;datatype:string,name:menutype_id;datatype:int,name:menu_url;datatype:string,name:menu_sortby;datatype:int,name:menu_status;datatype:int" />
+	<infoitem key="UD_smenu2" value="name:menu_id;datatype:int,name:menu_by;datatype:string,name:menu_date;datatype:string,name:menu_name;datatype:string,name:menutype_id;datatype:int,name:menu_url;datatype:string,name:menu_sortby;datatype:int,name:menu_status;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_kursus" value="name:courses_id;datatype:int,name:courses_by;datatype:string,name:courses_date;datatype:string,name:courses_start_d;datatype:string,name:courses_start_m;datatype:string,name:courses_start_y;datatype:string,name:courses_end_d;datatype:string,name:courses_end_m;datatype:string,name:courses_end_y;datatype:string,name:coursestype_id;datatype:int,name:courses_name;datatype:string,name:courses_location;datatype:string,name:courses_time;datatype:string,name:courses_lectureby;datatype:string,name:courses_lecturename;datatype:string,name:organizedby_id;datatype:int,name:courses_duration;datatype:int,name:durationtype_id;datatype:int,name:coursegroup_id;datatype:int,name:dir_id;datatype:int,name:courses_entry;datatype:int,name:courses_ref;datatype:string,name:courses_notes;datatype:blob,name:courses_status;datatype:int" />
+</info>

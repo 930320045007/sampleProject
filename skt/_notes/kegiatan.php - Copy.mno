@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_akt" value="name:useraktiviti_id;datatype:int,name:useraktiviti_by;datatype:string,name:useraktiviti_date;datatype:string,name:user_stafid;datatype:string,name:useraktiviti_year;datatype:int,name:useraktiviti_name;datatype:string,name:orglevel_id;datatype:int,name:orgarch_id;datatype:int,name:useraktiviti_jawat;datatype:string,name:useraktiviti_status;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_answer" value="name:reportanswer_id;datatype:int,name:reportanswer_by;datatype:string,name:reportanswer_date;datatype:string,name:reportanswer_status;datatype:int,name:reportanswer_title;datatype:string,name:reportsymptom_id;datatype:int,name:reportanswer_detail;datatype:blob" />
+</info>

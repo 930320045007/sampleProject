@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cat" value="name:category_id;datatype:int,name:category_name;datatype:string,name:category_status;datatype:int" />
+	<infoitem key="UD_akta" value="name:ap_id;datatype:int,name:ap_date_d;datatype:string,name:ap_date_m;datatype:string,name:ap_date_y;datatype:string,name:ap_date_h;datatype:string,name:ap_by;datatype:string,name:ap_title;datatype:string,name:ap_note;datatype:blob,name:ap_file;datatype:string,name:ap_fileformat;datatype:string,name:ap_year;datatype:string,name:category_id;datatype:int,name:ap_sumber;datatype:string,name:apsumberurl;datatype:string,name:ap_status;datatype:int" />
+</info>

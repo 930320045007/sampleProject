@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_usercourses" value="name:usercourses_id;datatype:int,name:usercourses_by;datatype:string,name:usercourses_date;datatype:string,name:user_stafid;datatype:string,name:courses_id;datatype:int,name:approval_id;datatype:int,name:usercourses_approvalby;datatype:string,name:usercourses_approvaldate;datatype:string,name:usercourses_status;datatype:int" />
+</info>

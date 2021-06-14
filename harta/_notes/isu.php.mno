@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_kat" value="name:category_id;datatype:int,name:category_code;datatype:string,name:category_name;datatype:string,name:category_status;datatype:int" />
+	<infoitem key="UD_skat" value="name:subcategory_id;datatype:int,name:subcategory_code;datatype:string,name:category_id;datatype:int,name:subcategory_name;datatype:string,name:subcategory_status;datatype:int" />
+	<infoitem key="UD_rcskat" value="name:rc_id;datatype:int,name:rc_by;datatype:string,name:rc_date_d;datatype:string,name:rc_date_m;datatype:string,name:rc_date_y;datatype:string,name:rc_date_h;datatype:string,name:subcategory_id;datatype:int,name:rc_title;datatype:string,name:rc_detail;datatype:blob,name:rc_status;datatype:int" />
+</info>

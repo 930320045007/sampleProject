@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cl" value="name:clinic_id;datatype:int,name:clinic_date;datatype:string,name:clinic_by;datatype:string,name:clinic_name;datatype:string,name:clinic_address;datatype:blob,name:state_id;datatype:int,name:clinic_notel1;datatype:string,name:clinic_notel2;datatype:string,name:clinic_nofax;datatype:string,name:clinictype_id;datatype:int,name:clinic_status;datatype:int" />
+	<infoitem key="UD_sta" value="name:state_id;datatype:int,name:state_name;datatype:blob,name:state_weekend;datatype:int,name:state_short;datatype:string,name:state_code;datatype:string,name:state_code2;datatype:string,name:state_status;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_usb" value="name:usb_id;datatype:int,name:usb_by;datatype:string,name:usb_date;datatype:string,name:user_stafid;datatype:string,name:usb_start_m;datatype:string,name:usb_start_y;datatype:string,name:usb_end_m;datatype:string,name:usb_end_y;datatype:string,name:usb_status;datatype:int" />
+</info>

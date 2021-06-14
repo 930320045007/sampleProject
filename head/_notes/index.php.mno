@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_userunit" value="name:userunit_id;datatype:int,name:userunit_date;datatype:string,name:userunit_by;datatype:string,name:userunit_in_d;datatype:string,name:userunit_in_m;datatype:string,name:userunit_in_y;datatype:string,name:user_stafid;datatype:string,name:dir_id;datatype:int,name:location_id;datatype:int,name:userunit_status;datatype:int" />
+	<infoitem key="UD_dirsub" value="name:dir_id;datatype:int,name:dir_name;datatype:blob,name:dir_shortname;datatype:string,name:dir_type;datatype:int,name:dir_sub;datatype:int,name:jobss_id;datatype:int,name:dir_sort;datatype:int,name:dir_status;datatype:int" />
+	<infoitem key="UD_dirsub2" value="name:dir_id;datatype:int,name:dir_name;datatype:blob,name:dir_shortname;datatype:string,name:dir_type;datatype:int,name:dir_sub;datatype:int,name:jobss_id;datatype:int,name:dir_sort;datatype:int,name:dir_status;datatype:int" />
+</info>

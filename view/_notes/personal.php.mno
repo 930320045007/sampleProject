@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_user_personal" value="name:userpersonal_id;datatype:int,name:userpersonal_date;datatype:datetime,name:userpersonal_by;datatype:string,name:user_stafid;datatype:string,name:user_marital;datatype:int,name:userpersonal_address;datatype:blob,name:userpersonal_zip;datatype:string,name:userpersonal_city;datatype:string,name:userpersonal_state;datatype:string,name:userpersonal_telh;datatype:string,name:userpersonal_telm;datatype:string,name:userpersonal_telw;datatype:string,name:userpersonal_telo;datatype:string,name:userpersonal_email;datatype:string,name:userpersonal_emailo;datatype:string,name:userpersonal_license;datatype:string,name:userpersonal_licensetype;datatype:string,name:userpersonal_size;datatype:string" />
+</info>

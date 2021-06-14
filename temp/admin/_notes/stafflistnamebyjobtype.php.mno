@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_staf" value="name:userdesignation_date_d;datatype:string,name:userdesignation_date_m;datatype:string,name:userdesignation_date_y;datatype:string,name:user_stafid;datatype:string" />
+	<infoitem key="UD_jt" value="name:jobtype_id;datatype:int,name:jobtype_by;datatype:string,name:jobtype_date;datatype:string,name:jobtype_name;datatype:string,name:jobtype_status;datatype:int" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_user_edu" value="name:useredu_id;datatype:int,name:useredu_date;datatype:string,name:useredu_by;datatype:string,name:user_stafid;datatype:string,name:useredu_level;datatype:string,name:useredu_major;datatype:blob,name:useredu_minor;datatype:string,name:useredu_institution;datatype:blob,name:useredu_location;datatype:blob,name:useredu_year;datatype:int,name:useredu_cgpa;datatype:string,name:useredu_achievement;datatype:blob,name:sponsor_id;datatype:int,name:useredu_sponsor;datatype:string,name:useredu_status;datatype:int" />
+</info>

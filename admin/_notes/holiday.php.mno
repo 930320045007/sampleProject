@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_hol" value="name:holiday_id;datatype:int,name:holiday_by;datatype:string,name:holiday_date;datatype:string,name:holiday_date_d;datatype:string,name:holiday_date_m;datatype:string,name:holiday_date_y;datatype:string,name:holidaycategory_id;datatype:int,name:holiday_name;datatype:string,name:holiday_note;datatype:blob,name:holiday_state;datatype:string,name:holiday_status;datatype:int" />
+</info>

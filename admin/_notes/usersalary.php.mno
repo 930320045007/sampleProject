@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ss" value="name:usersalaryskill_id;datatype:int,name:usersalaryskill_date;datatype:string,name:usersalaryskill_by;datatype:string,name:user_stafid;datatype:string,name:usersalaryskill_date_d;datatype:string,name:usersalaryskill_date_m;datatype:string,name:usersalaryskill_date_y;datatype:string,name:usersalaryskill_code;datatype:string,name:usersalaryskill_code2;datatype:string,name:usersalaryskill_basicsalary;datatype:real,name:usersalaryskill_start_d;datatype:string,name:usersalaryskill_start_m;datatype:string,name:usersalaryskill_start_y;datatype:string,name:usersalaryskill_status;datatype:int" />
+</info>

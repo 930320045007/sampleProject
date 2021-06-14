@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_menu" value="name:menu_id;datatype:int,name:menu_by;datatype:string,name:menu_date;datatype:string,name:menu_name;datatype:string,name:menutype_id;datatype:int,name:menu_url;datatype:string,name:menu_sortby;datatype:int,name:menu_status;datatype:int" />
+	<infoitem key="UD_uselevel" value="name:usersysacc_id;datatype:int,name:usersysacc_by;datatype:string,name:usersysacc_date;datatype:string,name:user_stafid;datatype:string,name:menu_id;datatype:int,name:submenu_id;datatype:int,name:usersysacc_view;datatype:int,name:usersysacc_add;datatype:int,name:usersysacc_edit;datatype:int,name:usersysacc_del;datatype:int,name:usersysacc_status;datatype:int" />
+	<infoitem key="UD_usu" value="name:usersysacc_id;datatype:int,name:usersysacc_by;datatype:string,name:usersysacc_date;datatype:string,name:user_stafid;datatype:string,name:menu_id;datatype:int,name:submenu_id;datatype:int,name:usersysacc_view;datatype:int,name:usersysacc_add;datatype:int,name:usersysacc_edit;datatype:int,name:usersysacc_del;datatype:int,name:usersysacc_status;datatype:int" />
+	<infoitem key="UD_menulist" value="name:menu_id;datatype:int,name:menu_by;datatype:string,name:menu_date;datatype:string,name:menu_name;datatype:string,name:menutype_id;datatype:int,name:menu_url;datatype:string,name:menu_sortby;datatype:int,name:menu_status;datatype:int" />
+</info>

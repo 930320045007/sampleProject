@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_eduresult" value="name:useredu_id;datatype:int,name:useredu_date;datatype:string,name:useredu_by;datatype:string,name:user_stafid;datatype:string,name:useredu_level;datatype:string,name:useredu_major;datatype:blob,name:useredu_minor;datatype:string,name:useredu_institution;datatype:blob,name:useredu_location;datatype:blob,name:useredu_year;datatype:int,name:useredu_cgpa;datatype:string,name:useredu_achievement;datatype:blob,name:sponsor_id;datatype:int,name:useredu_sponsor;datatype:string,name:useredu_status;datatype:int" />
+	<infoitem key="UD_subjek" value="name:edusubjek_id;datatype:int,name:edusubjek_name;datatype:string,name:edusubjek_status;datatype:int" />
+	<infoitem key="UD_gred" value="name:edugred_id;datatype:int,name:edugred_name;datatype:string,name:edugred_status;datatype:int" />
+	<infoitem key="UD_usereduresult" value="name:usereduresult_id;datatype:int,name:usereduresult_by;datatype:string,name:usereduresult_date;datatype:string,name:user_stafid;datatype:string,name:useredu_id;datatype:int,name:edusubjek_id;datatype:int,name:edugred_id;datatype:int,name:usereduresult_status;datatype:int" />
+</info>

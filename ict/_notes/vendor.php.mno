@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_vlist" value="name:vendor_id;datatype:int,name:vendortype_id;datatype:int,name:vendor_name;datatype:string,name:vendor_add;datatype:blob,name:vendor_notel;datatype:string,name:vendor_status;datatype:int" />
+	<infoitem key="UD_vtype" value="name:vendortype_id;datatype:int,name:vendortype_name;datatype:string,name:vendortype_status;datatype:int" />
+</info>

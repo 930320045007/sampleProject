@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cat" value="name:category_id;datatype:int,name:category_name;datatype:string" />
+	<infoitem key="UD_brandlist" value="name:brand_id;datatype:int,name:brand_name;datatype:string,name:category_id;datatype:int" />
+	<infoitem key="UD_vendor" value="name:vendor_id;datatype:int,name:vendor_name;datatype:string,name:vendor_add;datatype:blob,name:vendor_notel;datatype:string,name:vendor_status;datatype:int" />
+</info>

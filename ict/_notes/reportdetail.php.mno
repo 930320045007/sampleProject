@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_userreport" value="name:userreport_id;datatype:int,name:userreport_status;datatype:int,name:user_stafid;datatype:string,name:userreport_date_d;datatype:string,name:userreport_date_m;datatype:string,name:userreport_date_y;datatype:string,name:userreport_time;datatype:string,name:reportsymptom_id;datatype:int,name:userreport_result;datatype:int,name:userreport_star;datatype:int,name:userreport_starby;datatype:string,name:userreport_stardate;datatype:string" />
+	<infoitem key="UD_urfeedback" value="name:urf_id;datatype:int,name:urf_by;datatype:string,name:urf_date_d;datatype:string,name:urf_date_m;datatype:string,name:urf_date_y;datatype:string,name:urf_date_h;datatype:string,name:userreport_id;datatype:int,name:feedbacktype_id;datatype:int,name:urf_stafid;datatype:string,name:urf_note;datatype:blob,name:urf_status;datatype:int" />
+	<infoitem key="UD_ftype" value="name:feedbacktype_id;datatype:int,name:feedbacktype_name;datatype:string,name:feedbacktype_status;datatype:int" />
+</info>

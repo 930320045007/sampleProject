@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_reporttype" value="name:reporttype_id;datatype:int,name:reporttype_name;datatype:string,name:reporttype_status;datatype:int" />
+	<infoitem key="UD_rst2" value="name:reportsubtype_id;datatype:int,name:reporttype_id;datatype:int,name:reportsubtype_name;datatype:string,name:reportsubtype_status;datatype:int" />
+	<infoitem key="UD_symptom" value="name:reportsymptom_id;datatype:int,name:reportsymptom_by;datatype:string,name:reportsymptom_date;datatype:string,name:reportsymptom_status;datatype:int,name:reporttype_id;datatype:int,name:reportsubtype_id;datatype:int,name:reportsymptom_question;datatype:string" />
+	<infoitem key="UD_answer" value="name:reportanswer_id;datatype:int,name:reportanswer_by;datatype:string,name:reportanswer_date;datatype:string,name:reportanswer_status;datatype:int,name:reportanswer_title;datatype:string,name:reportsymptom_id;datatype:int,name:reportanswer_detail;datatype:blob" />
+</info>

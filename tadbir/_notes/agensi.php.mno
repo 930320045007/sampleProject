@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ag" value="name:agensi_id;datatype:int,name:agensi_by;datatype:string,name:agensi_date;datatype:string,name:agensi_name;datatype:string,name:agensi_address;datatype:blob,name:agensi_notel;datatype:string,name:agensi_nofax;datatype:string,name:agensi_status;datatype:int" />
+</info>

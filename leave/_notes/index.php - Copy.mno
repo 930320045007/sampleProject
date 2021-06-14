@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cutitype" value="name:leavetype_id;datatype:int,name:leavetype_name;datatype:string" />
+	<infoitem key="UD_cutikategori" value="name:leavecategory_id;datatype:int,name:leavecategory_name;datatype:string,name:leavecategory_totalday;datatype:int,name:leavetype_id;datatype:int,name:leavecategory_status;datatype:int" />
+</info>

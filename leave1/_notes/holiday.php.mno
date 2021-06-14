@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_h" value="name:holiday_id;datatype:int,name:holiday_by;datatype:string,name:holiday_date;datatype:string,name:holiday_date_d;datatype:string,name:holiday_date_m;datatype:string,name:holiday_date_y;datatype:string,name:holidaycategory_id;datatype:int,name:holiday_name;datatype:string,name:holiday_note;datatype:blob,name:holiday_state;datatype:string,name:holiday_status;datatype:int" />
+	<infoitem key="UD_s" value="name:state_id;datatype:int,name:state_name;datatype:blob,name:state_weekend;datatype:int,name:state_short;datatype:string,name:state_code;datatype:string,name:state_code2;datatype:string,name:state_status;datatype:int" />
+	<infoitem key="UD_s2" value="name:state_id;datatype:int,name:state_name;datatype:blob,name:state_weekend;datatype:int,name:state_short;datatype:string,name:state_code;datatype:string,name:state_code2;datatype:string,name:state_status;datatype:int" />
+</info>

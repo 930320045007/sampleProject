@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_user_dependents" value="name:userdependents_id;datatype:int,name:userdependents_date;datatype:datetime,name:userdependents_by;datatype:string,name:user_stafid;datatype:string,name:userdependents_name;datatype:blob,name:userdependents_relation;datatype:string,name:userdependents_dob;datatype:string" />
+</info>

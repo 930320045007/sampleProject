@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_kewe" value="name:kewe_id;datatype:int,name:kewe_by;datatype:string,name:kewe_date;datatype:string,name:kewe_name;datatype:string,name:kewetype_id;datatype:int,name:kewe_status;datatype:int" />
+	<infoitem key="UD_kewetype" value="name:kewetype_id;datatype:int,name:kewetype_name;datatype:string,name:kewetype_status;datatype:int" />
+</info>

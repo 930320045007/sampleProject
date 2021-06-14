@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><info>	<infoitem key="UD_driver" value="name:driver_id;datatype:int,name:user_stafid;datatype:string,name:driver_status;datatype:int" />	<infoitem key="UD_journey" value="name:journey_date_d;datatype:int,name:journey_date_m;datatype:int" /></info>

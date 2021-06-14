@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sur" value="name:sd_id;datatype:int,name:sd_by;datatype:string,name:sd_date_d;datatype:string,name:sd_date_m;datatype:string,name:sd_date_y;datatype:string,name:sd_date_h;datatype:string,name:sd_title;datatype:string,name:sd_desc;datatype:blob,name:group_id;datatype:int,name:division_id;datatype:int,name:sd_end_d;datatype:string,name:sd_end_m;datatype:string,name:sd_end_y;datatype:string,name:sd_status;datatype:int" />
+</info>

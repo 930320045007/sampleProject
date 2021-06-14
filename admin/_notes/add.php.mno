@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_jobs" value="name:jobs_id;datatype:int,name:jobs_name;datatype:blob,name:jobs_shortname;datatype:string,name:jobscode_id;datatype:int,name:jobs_description;datatype:blob" />
+	<infoitem key="UD_dir" value="name:dir_id;datatype:int,name:dir_name;datatype:blob,name:dir_shortname;datatype:string,name:dir_type;datatype:int,name:dir_sub;datatype:int,name:user_stafid;datatype:string,name:dir_sort;datatype:int,name:dir_status;datatype:int" />
+	<infoitem key="UD_country" value="name:CountryID;datatype:int,name:Name;datatype:string" />
+	<infoitem key="UD_race" value="name:race_id;datatype:int,name:race_by;datatype:string,name:race_date;datatype:string,name:race_name;datatype:string,name:race_short;datatype:int,name:race_status;datatype:int" />
+	<infoitem key="UD_location" value="name:location_id;datatype:int,name:location_date;datatype:string,name:location_by;datatype:string,name:location_name;datatype:blob,name:state_id;datatype:int,name:location_status;datatype:int" />
+	<infoitem key="UD_marital" value="name:marital_id;datatype:int,name:marital_by;datatype:string,name:marital_date;datatype:string,name:marital_name;datatype:string,name:marital_status;datatype:int" />
+	<infoitem key="UD_jobss" value="name:jobss_id;datatype:int,name:jobss_name;datatype:blob,name:jobss_shortname;datatype:string,name:jobss_code;datatype:string,name:jobss_description;datatype:blob" />
+	<infoitem key="UD_jobstype" value="name:jobtype_id;datatype:int,name:jobtype_by;datatype:string,name:jobtype_date;datatype:string,name:jobtype_name;datatype:string,name:jobtype_status;datatype:int" />
+	<infoitem key="UD_bank" value="name:bank_id;datatype:int,name:bank_by;datatype:string,name:bank_date;datatype:string,name:bank_name;datatype:string,name:bank_shortname;datatype:string,name:bank_status;datatype:int" />
+	<infoitem key="UD_rel" value="name:religion_id;datatype:int,name:religion_date;datatype:string,name:religion_by;datatype:string,name:religion_name;datatype:string,name:religion_status;datatype:int" />
+	<infoitem key="UD_klas" value="name:classification_id;datatype:int,name:classification_by;datatype:string,name:classification_date;datatype:string,name:classification_code;datatype:string,name:classification_name;datatype:string,name:classification_status;datatype:int" />
+	<infoitem key="UD_ske" value="name:scheme_id;datatype:int,name:scheme_by;datatype:string,name:scheme_date;datatype:string,name:classification_id;datatype:int,name:scheme_code;datatype:int,name:scheme_code2;datatype:string,name:scheme_name;datatype:string,name:group_id;datatype:int,name:scheme_gred;datatype:string,name:scheme_status;datatype:int" />
+	<infoitem key="UD_tit" value="name:title_id;datatype:int,name:title_name;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sch" value="name:scheme_id;datatype:int,name:scheme_by;datatype:string,name:scheme_date;datatype:string,name:classification_id;datatype:int,name:scheme_code;datatype:int,name:scheme_name;datatype:string,name:group_id;datatype:int,name:scheme_gred;datatype:string" />
+</info>

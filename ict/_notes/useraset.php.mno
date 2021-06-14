@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_itemborrow2" value="name:itemborrow_id;datatype:int,name:itemborrow_by;datatype:string,name:itemborrow_date;datatype:string,name:itemborrow_status;datatype:int,name:user_stafid;datatype:string,name:userborrow_id;datatype:int,name:userborrow_type;datatype:int,name:subcategory_id;datatype:int,name:item_id;datatype:int,name:itemborrow_note;datatype:blob,name:ict_return;datatype:int,name:ict_returnby;datatype:string,name:ict_returndate;datatype:string,name:ict_returnnote;datatype:blob,name:ict_returnuser;datatype:string" />
+</info>

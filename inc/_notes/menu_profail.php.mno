@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_menuprofile" value="name:submenu_id;datatype:int,name:submenu_by;datatype:string,name:submenu_date;datatype:string,name:submenu_name;datatype:string,name:menu_id;datatype:int,name:submenu_url;datatype:string,name:submenu_sortby;datatype:int,name:submenu_status;datatype:int" />
+</info>

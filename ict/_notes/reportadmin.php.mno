@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_userreport" value="name:userreport_id;datatype:int,name:userreport_status;datatype:int,name:user_stafid;datatype:string,name:userreport_date_d;datatype:string,name:userreport_date_m;datatype:string,name:userreport_date_y;datatype:string,name:userreport_time;datatype:string,name:reportsymptom_id;datatype:int,name:userreport_result;datatype:int" />
+	<infoitem key="UD_rstype" value="name:reportsubtype_id;datatype:int,name:reporttype_id;datatype:int,name:reportsubtype_name;datatype:string,name:reportsubtype_status;datatype:int" />
+</info>

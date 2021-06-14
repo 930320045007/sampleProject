@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_uc" value="name:usercourses_id;datatype:int,name:usercourses_by;datatype:string,name:usercourses_date;datatype:string,name:user_stafid;datatype:string,name:courses_id;datatype:int,name:approval_id;datatype:int,name:usercourses_approvalby;datatype:string,name:usercourses_approvaldate;datatype:string,name:usercourses_status;datatype:int" />
+	<infoitem key="UD_ucr" value="name:usercoursesreport_id;datatype:int,name:usercoursesreport_date;datatype:string,name:usercoursesreport_by;datatype:string,name:usercourses_id;datatype:int,name:usercoursesreport_modul;datatype:blob,name:usercoursesreport_implementation;datatype:blob,name:usercoursesreport_newinput;datatype:blob,name:usercoursesreport_review;datatype:blob,name:usercoursesreport_actionplan;datatype:blob,name:usercoursesreport_rating;datatype:int,name:usercoursesreport_comment;datatype:blob,name:usercoursesreport_nextyear;datatype:int,name:usercoursesreport_status;datatype:int,name:hr_date;datatype:string,name:hr_by;datatype:string,name:hr_comment;datatype:blob,name:hr_approval;datatype:int" />
+</info>

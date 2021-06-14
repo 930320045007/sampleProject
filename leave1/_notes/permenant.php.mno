@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_plc" value="name:usplc_id;datatype:int,name:usplc_by;datatype:string,name:usplc_date;datatype:string,name:user_stafid;datatype:string,name:usplc_date_d;datatype:string,name:usplc_date_m;datatype:string,name:usplc_date_y;datatype:string,name:usplc_total;datatype:int,name:usplc_status;datatype:int" />
+	<infoitem key="UD_gcr" value="name:uspgcr_id;datatype:int,name:uspgcr_by;datatype:string,name:uspgcr_date;datatype:string,name:user_stafid;datatype:string,name:uspgcr_date_d;datatype:string,name:uspgcr_date_m;datatype:string,name:uspgcr_date_y;datatype:string,name:uspgcr_total;datatype:int,name:uspgcr_status;datatype:int" />
+</info>

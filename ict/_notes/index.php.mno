@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_subcat" value="name:subcategory_id;datatype:int,name:subcategory_name;datatype:string" />
+	<infoitem key="UD_durationtype" value="name:durationtype_id;datatype:int,name:durationtype_name;datatype:string" />
+</info>

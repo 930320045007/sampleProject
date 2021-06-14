@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_tiket" value="name:ticket_id;datatype:int,name:ticket_by;datatype:string,name:ticket_date_d;datatype:string,name:ticket_date_m;datatype:string,name:ticket_date_y;datatype:string,name:ticket_date_h;datatype:string,name:tickettype_id;datatype:int,name:ticket_title;datatype:string,name:ticket_ref;datatype:string,name:ticket_bagasi;datatype:int,name:ticket_insuran;datatype:int,name:ticket_app;datatype:int,name:ticket_appby;datatype:string,name:ticket_appdate;datatype:string,name:ticket_status;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_dir" value="name:dir_id;datatype:int,name:dir_name;datatype:blob,name:dir_shortname;datatype:string,name:dir_type;datatype:int,name:dir_sub;datatype:int,name:user_stafid;datatype:string,name:dir_sort;datatype:int,name:dir_status;datatype:int" />
+	<infoitem key="UD_dirl" value="name:dir_id;datatype:int,name:dir_name;datatype:blob,name:dir_shortname;datatype:string,name:dir_type;datatype:int,name:dir_sub;datatype:int,name:user_stafid;datatype:string,name:dir_sort;datatype:int,name:dir_status;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_tr" value="name:travel_id;datatype:int,name:ticket_id;datatype:int,name:travel_from;datatype:string,name:travel_to;datatype:string,name:travel_date_d;datatype:int,name:travel_date_m;datatype:int,name:travel_date_y;datatype:int,name:travel_time;datatype:string,name:travel_status;datatype:int" />
+	<infoitem key="UD_isnp" value="name:ip_id;datatype:int,name:ticket_id;datatype:int,name:user_stafid;datatype:string,name:ip_status;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_user_passport2" value="name:userpassport_id;datatype:int,name:userpassport_date;datatype:datetime,name:userpassport_by;datatype:string,name:user_stafid;datatype:string,name:userpassport_type;datatype:string,name:userpassport_citizen;datatype:string,name:userpassport_no;datatype:string,name:userpassport_start;datatype:string,name:userpassport_expire;datatype:string" />
+	<infoitem key="UD_user_passport" value="name:userpassport_id;datatype:int,name:userpassport_date;datatype:datetime,name:userpassport_by;datatype:string,name:user_stafid;datatype:string,name:userpassport_type;datatype:string,name:userpassport_citizen;datatype:string,name:userpassport_no;datatype:string,name:userpassport_start;datatype:string,name:userpassport_expire;datatype:string" />
+</info>

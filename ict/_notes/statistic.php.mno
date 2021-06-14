@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rt" value="name:reporttype_id;datatype:int,name:reporttype_name;datatype:string,name:reporttype_status;datatype:int" />
+</info>

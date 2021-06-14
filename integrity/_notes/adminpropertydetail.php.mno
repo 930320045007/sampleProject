@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_disposal" value="name:disposalway_id;datatype:int,name:disposalway_name;datatype:string,name:disposalway_status;datatype:int" />
+</info>
